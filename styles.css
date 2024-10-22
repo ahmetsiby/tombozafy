@@ -467,4 +467,8 @@ footer p {
   .burger {
     display: flex;
   }
+  .service_img {
+    width: 150px;
+    height: 150px;
+  }
 }
