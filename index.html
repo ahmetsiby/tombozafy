@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Clim Confort Service - Expert en Climatisation à Castelnaudary
+    </title>
+    <meta
+      name="description"
+      content="Clim Confort Service, basé à Castelnaudary, spécialisé dans la pose, l'entretien, le dépannage et la mise en service de systèmes de climatisation. Contactez Serge Tombozafy au 07 68 48 10 54 ou par email à climconfortservice11@gmail.fr pour un devis gratuit."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts pour une typographie moderne -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome pour les icônes -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico" />
+  </head>
+  <body>
+    <!-- Barre de Navigation -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#hero" aria-label="Clim Confort Service">
+            <h1>Clim Confort Service</h1>
+          </a>
+        </div>
+        <nav aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#entretien">Entretien</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#depannage">Dépannage</a></li>
+            <li><a href="#mise-en-service">Mise en Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button
+            class="burger"
+            aria-label="Menu"
+            aria-expanded="false"
+            aria-controls="navigation"
+          >
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section Héro -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <h2>Votre expert en climatisation à Castelnaudary</h2>
+        <p>
+          Installation, entretien, dépannage et mise en service de systèmes de
+          climatisation.
+        </p>
+        <a href="#contact" class="btn">Demandez un devis</a>
+      </div>
+    </section>
+
+    <!-- Section Entretien -->
+    <section id="entretien" class="services">
+      <div class="container">
+        <h2>Entretien</h2>
+        <div class="service-content">
+          <div class="service_img">
+            <img src="/1.jpg" alt="Entretien de climatisation" loading="lazy" />
+          </div>
+          <div class="service-description">
+            <p>
+              Un entretien régulier assure le bon fonctionnement et la longévité
+              de votre système de climatisation. Nos experts interviennent pour
+              nettoyer, vérifier et optimiser vos équipements.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Installation -->
+    <section id="installation" class="services">
+      <div class="container">
+        <h2>Installation</h2>
+        <div class="service-content">
+          <div class="service_img">
+            <img
+              src="/2.jpg"
+              alt="Installation de climatisation"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="service-description">
+            <p>
+              Nous vous accompagnons dans le choix et l'installation de votre
+              système de climatisation, adapté à vos besoins et à votre budget.
+              Installation professionnelle garantie.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Dépannage -->
+    <section id="depannage" class="services">
+      <div class="container">
+        <h2>Dépannage</h2>
+        <div class="service-content">
+          <div class="service_img">
+            <img src="/3.jpg" alt="Dépannage de climatisation" loading="lazy" />
+          </div>
+          <div class="service-description">
+            <p>
+              En cas de panne, notre équipe intervient rapidement pour
+              diagnostiquer et réparer votre système de climatisation,
+              minimisant ainsi les désagréments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Mise en Service -->
+    <section id="mise-en-service" class="services">
+      <div class="container">
+        <h2>Mise en Service</h2>
+        <div class="service-content">
+          <div class="service_img">
+            <img
+              src="/4.jpg"
+              alt="Mise en service de climatisation"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="service-description">
+            <p>
+              Après l'installation, nous procédons à la mise en service de votre
+              climatisation pour garantir un fonctionnement optimal et conforme
+              à vos attentes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contactez-nous</h2>
+        <div class="contact-content">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Nom</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                aria-required="true"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                aria-required="true"
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Téléphone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                aria-required="true"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Demande de Devis</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                aria-required="true"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Envoyer</button>
+          </form>
+          <div class="contact-info">
+            <h3>Clim Confort Service</h3>
+            <p>Propriétaire : Serge Tombozafy</p>
+            <p>
+              Téléphone :
+              <a href="tel:+33768481054">07 68 48 10 54</a>
+            </p>
+            <p>
+              Email :
+              <a href="mailto:climconfortservice11@gmail.fr"
+                >climconfortservice11@gmail.fr</a
+              >
+            </p>
+            <p>Basé à Castelnaudary</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Clim Confort Service. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <!-- EmailJS SDK -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("YOUR_USER_ID"); // Remplacez "YOUR_USER_ID" par votre ID utilisateur EmailJS
+      })();
+    </script>
+  </body>
+</html>
