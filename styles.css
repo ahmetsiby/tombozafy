@@ -432,11 +432,6 @@ footer p {
   .contact-content {
     flex-direction: column;
   }
-
-  .contact form,
-  .contact-info {
-    margin: 0 0 20px 0;
-  }
 }
 
 @media (max-width: 768px) {
@@ -471,5 +466,13 @@ footer p {
   .service_img {
     width: 150px;
     height: 150px;
+  }
+  .contact-content {
+    width: 100%;
+  }
+  .contact-info,
+  .contact form {
+    width: 100%;
+    padding: 0;
   }
 }
