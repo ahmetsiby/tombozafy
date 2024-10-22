@@ -238,8 +238,7 @@ nav {
 
 .service-description {
   flex: 1;
-  min-width: 280px;
-  margin-left: 20px;
+  width: 80%;
   animation: slideInRight 1s ease-out;
 }
 
@@ -274,6 +273,8 @@ nav {
 }
 
 .contact-content {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -282,7 +283,6 @@ nav {
 
 .contact form {
   flex: 1;
-  min-width: 300px;
   background: rgba(255, 255, 255, 0.1);
   padding: 20px;
   border-radius: 10px;
@@ -315,7 +315,8 @@ nav {
 
 .contact-info {
   flex: 1;
-  min-width: 200px;
+  width: 80%;
+  margin: 0 auto;
   background: rgba(255, 255, 255, 0.1);
   padding: 20px;
   border-radius: 10px;
