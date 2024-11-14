@@ -36,6 +36,10 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.logo {
+  display: flex;
+  gap: 10px;
+}
 .logo a {
   color: var(--light-color);
   text-decoration: none;
@@ -44,6 +48,11 @@ header {
 .logo h1 {
   margin: 0;
   font-size: 24px;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 nav {
@@ -91,6 +100,7 @@ nav {
   border: none;
   cursor: pointer;
   padding: 0;
+  margin-top: 2rem;
 }
 
 .burger div {
@@ -114,8 +124,9 @@ nav {
 
 /* Hero Section */
 .hero {
-  background: url("https://via.placeholder.com/1200x600") no-repeat center
-    center/cover;
+  background: linear-gradient(270deg, #2c3e50, #34495e, #2f2f4f, #1b1b2f);
+  background-size: 600% 600%;
+  animation: gradientAnimation 10s ease infinite;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -126,7 +137,18 @@ nav {
   position: relative;
   overflow: hidden;
 }
-
+/* Animation du gradient */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .hero::after {
   content: "";
   position: absolute;
@@ -183,6 +205,7 @@ nav {
 /* Services Sections */
 .services {
   width: 80%;
+  max-width: 1100px;
   margin: 30px auto;
   padding: 80px 0;
   background: var(--light-color);
@@ -297,6 +320,9 @@ nav {
   display: block;
   margin: 8px 0;
   font-weight: 500;
+}
+label span {
+  color: var(--secondary-color);
 }
 
 .form-group input,
@@ -464,8 +490,8 @@ footer p {
     display: flex;
   }
   .service_img {
-    width: 150px;
-    height: 150px;
+    width: 80%;
+    height: auto;
   }
   .contact-content {
     width: 100%;
