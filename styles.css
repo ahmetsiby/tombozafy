@@ -502,3 +502,14 @@ footer p {
     padding: 0;
   }
 }
+
+@media (max-width: 768px) and (orientation: landscape) {
+  header {
+    position: relative;
+  }
+  .hero {
+    margin-top: 0;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+}
